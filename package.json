@@ -1,6 +1,6 @@
 {
   "name": "fa-generator",
-  "version": "0.0.17",
+  "version": "1.0.0",
   "description": "Generator to create basic structure projects",
   "main": "index.js",
   "scripts": {
