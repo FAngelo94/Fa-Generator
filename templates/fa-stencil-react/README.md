@@ -25,6 +25,7 @@ Contain the [Stencil](https://stenciljs.com/) project with the components that a
 
 ## Commands
 Launch this commands to the root folder project
+- `npm run fa-init-project` -> press this command when you enter the first time in the project to set the environment
 - `npm run project-build` -> build stencil components creating *dist* and *loader* folders and then build react application
 - `npm run project-start` -> build stencil components creating *dist* and *loader* folders and then start react application 
 - `npm run app-build` -> build react application only

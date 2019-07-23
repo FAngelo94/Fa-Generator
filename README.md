@@ -6,6 +6,8 @@ To create this generator I used [Inquirer](https://www.npmjs.com/package/inquire
 ## Templates
 Contain the different template you can generate with this generator. For the moment there is only one template but I will add others soon.
 
+For each template the readme file contains a description about the set of useful commands available for the projects.
+
 #### fa-stencil-react
 This is a template projects to build an application using [Stencil](https://stenciljs.com/) and [React](https://reactjs.org/).
 
