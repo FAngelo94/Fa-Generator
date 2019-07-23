@@ -1,6 +1,6 @@
 {
   "name": "fa-generator",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "Generator to create basic structure projects",
   "main": "index.js",
   "scripts": {
@@ -20,5 +20,9 @@
     "react",
     "stencil",
     "lerna"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FAngelo94/Fa-Generator"
+  }
 }

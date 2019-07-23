@@ -38,10 +38,8 @@ inquirer.prompt(QUESTIONS)
 
   function createDirectoryContents (templatePath, newProjectPath) {
     const filesToCreate = fs.readdirSync(templatePath);
-    console.log('path',templatePath)
   
     filesToCreate.forEach(file => {
-      console.log('file',file)
       const origFilePath = `${templatePath}/${file}`;
       
       // get stats about the current file
