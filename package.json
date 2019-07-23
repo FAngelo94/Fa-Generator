@@ -1,0 +1,24 @@
+{
+  "name": "fa-generator",
+  "version": "0.0.13",
+  "description": "Generator to create basic structure projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Angelo Falci",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^6.5.0"
+  },
+  "bin": {
+    "fa-generate": "./index.js"
+  },
+  "keywords": [
+    "generator",
+    "npm",
+    "react",
+    "stencil",
+    "lerna"
+  ]
+}

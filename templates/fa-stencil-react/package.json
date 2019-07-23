@@ -1,0 +1,16 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "app-build": "npm -C ./packages/app-pkg run build",
+    "app-start": "npm -C ./packages/app-pkg run start",
+    "stencil-build": "npm -C ./packages/stencil-pkg run build",
+    "stencil-start": "npm -C ./packages/stencil-pkg start",
+    "project-build": "npm -C ./packages/stencil-pkg run build & sleep 5 && npm -C ./packages/app-pkg run build",
+    "project-start": "npm -C ./packages/stencil-pkg run build & sleep 5 && npm -C ./packages/app-pkg run start",
+    "fa-init-project": "npm -C ./packages/stencil-pkg install & sleep 5 && npm -C ./packages/stencil-pkg run build & sleep 10 && npm -C ./packages/app-pkg install & sleep 15 && lerna bootstrap --hoist"
+  },
+  "devDependencies": {
+    "lerna": "^3.15.0"
+  }
+}
